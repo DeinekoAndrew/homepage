@@ -1,305 +1,976 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-    <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
-  </head>
-  <body>
-    <main>
-      <article>
-        <div class="page" style="border-color: midnightblue;">
-          <div class="stackable grid">
-            <div class="row">
-              <div class="three wide center aligned column">
-                <div class="avatar-wrapper">
-                  <object class="avatar" data="https://blog.seibert-media.com/wp-content/uploads/2017/01/donald-trump.jpg" role="img" aria-label="My profile picture"></object>
-                </div>
-              </div>
-              <div class="thirteen wide column">
-                <div class="stackable grid">
-                  <div class="sixteen wide column">
-                    <h1 class="name">  DONALD TRUMP</h1> 
-                  
-                    
-                    <ul class="contacts">
-                      <li>
-                        <a href="https://www.fb.com/DonaldTrump" rel="author" class="facebook">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
-                          <span>DonaldTrump</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:realDonaldTrump@whitehouse.gov " rel="author" class="mail">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
-                          <span>realDonaldTrump@whitehouse.gov </span>
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a href="skype:realDonaldTrump" rel="author" class="skype">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z"/></svg>
-                          <span>realDonaldTrump</span>
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a href="https://realDonaldTrump.com" rel="author" class="website">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg>
-                          <span>https://realDonaldTrump.com</span>
-                        </a>
-                      </li>
-                    </ul>
+<head>
+   <title>Цитрус майстер - онлайн калькулятор разовых услуг</title>
+   <link rel="icon" href="https://1stweb.site/wp-content/uploads/2023/05/favicon-32x32-1.png" type="image/x-icon">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+   .category {
+  margin-bottom: 10px;
+}
 
+.category-heading {
+  cursor: pointer;
 
-                  </div>
-                  <div class="sixteen wide mobile only column">
-                    <div class="divider"></div>
-                  </div>
-                  <div class="sixteen wide column">
-                    <h2>Résumé</h2>
-<p>&mdash; I'm the most successful person ever to run for the presidency, by far. Nobody's ever been more successful than me. I'm the most successful person ever to run. Ross Perot isn't successful like me. Romney ― I have a Gucci store that's worth more than Romney. Sorry losers and haters, but my IQ is one of the highest ― and you all know it! Please don't feel so stupid or insecure, it's not your fault.
-                  </div>
-                </div>
-              </div>
+  font-weight: bold;
+}
+.category-heading img {
+  vertical-align: middle;
+  margin-right: 5px;
+  max-width: 100%;
+  height: auto;
+}
+.category-content {
+  display: none;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.category-content.active {
+  display: block;
+}
+      * {
+         box-sizing: border-box;
+      }
+      .container {
+         max-width: 100%;
+         padding: 10px;
+}
+ .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://i.ibb.co/FW3fkqb/Screenshot-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+
+      .logo {
+         width: 400px;
+         max-width: 100%;
+      }
+
+      /* Existing CSS styles for services-checkbox and other elements */
+      }
+      .services-checkbox {
+         flex-direction: column;
+         margin-bottom: 20px;
+      }
+      .service-image {
+         width: 100px;
+         height: 100px;
+         margin: 0 auto 10px;
+      }
+      .services-checkbox label {
+         text-align: center;
+      }
+      .quantity-controls {
+         justify-content: center;
+      }
+      .quantity-controls .quantity-input {
+         width: 60px;
+      }
+      #deselect-all-btn {
+         margin:10px ;
+      }
+      body {
+         font-family: Arial, sans-serif;
+         background-color: #f5f5f5;
+         margin: 0;
+         padding: 0px;
+      }
+      h1 {
+         text-align: center;
+      }
+      .more {
+        color:red;
+         text-align: left;
+         
+      }
+      .services-checkbox {
+         margin-bottom: 10px;
+         background-color: #ffffff;
+         padding: 10px;
+         border-radius: 5px;
+         display: flex;
+         align-items: center;
+      }
+      .services-checkbox:hover {
+         background-color: #f5f5f5;
+      }
+      .service-image {
+         width: 50px;
+         height: 50px;
+         margin-right: 10px;
+      }
+      .services-checkbox label {
+         cursor: pointer;
+         flex-grow: 1;
+      }
+      .services-checkbox .quantity-input {
+         position: relative;
+         text-align: left;
+         padding: 0;
+         width: 40px;
+         border: 1px solid #ddd;
+         display: inline-block;
+      }
+      .services-checkbox input[type="checkbox"] {
+         display: none;
+      }
+      .services-checkbox label:before {
+         content: "";
+         display: inline-block;
+         width: 10px;
+         height: 10px;
+         margin-right: 10px;
+         border-radius: 50%;
+         background-color: orange;
+         border: 2px solid white;
+      }
+      .services-checkbox input[type="checkbox"]:checked + label:before {
+         background-color: rgb(255, 85, 0);
+         border: 2px solid rgb(255, 255, 255);
+         content: "\2713";
+         text-align: center;
+         font-size: 12px;
+      }
+      .total-price-label {
+         font-weight: bold;
+         font-size: 1.2em;
+         text-align: right;
+         margin-top: 10px;
+         position: fixed;
+         bottom: 10px;
+         right: 10px;
+         background-color: orange;
+         padding: 5px 10px;
+         border-radius: 5px;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      #deselect-all-btn {
+         background-color: red;
+         color: white;
+         font-weight: bold;
+         padding: 5px 10px;
+         border: none;
+         text-align: left;
+         cursor: pointer;
+         display: block;
+         margin: 15px auto;
+      }
+      .quantity-controls {
+         display: flex;
+         align-items: center;
+      }
+      .quantity-controls .quantity-input {
+         width: 40px;
+         text-align: center;
+         border: 1px solid #f6f5f5;
+         display: inline-block;
+         margin: 0 5px;
+      }
+      .quantity-controls button {
+         background-color: orange;
+         color: white;
+         border: none;
+         cursor: pointer;
+         font-weight: bold;
+         font-size: 16px;
+         width: 30px;
+         height: 30px;
+         line-height: 30px;
+         text-align: center;
+         border-radius: 3px;
+      }
+      .quantity-controls button:hover {
+         background-color: rgb(255, 140, 0);
+      }
+   </style>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="https://i.ibb.co/zsgbdVh/LogoCtrd.png" alt="Citrus Master Logo">
+     </div>
+      <div class="container">
+         <div class="category">
+            <div class="category-heading" onclick="toggleCategory('category1')"> <img src="https://i.ibb.co/WFfCCVq/Screenshot-1.png" alt="Разові послуги">
             </div>
-            <div class="row">
-              <div class="sixteen wide column">
-                <div class="fat divider"></div>
-              </div>
+            <div id="category1" class="category-content">
+               <div class="services-checkbox">
+                  <img class="service-image" src="https://www.ctrs.com.ua/_next/image/?url=https://i.citrus.world/imgcache/size_180/uploads/shop/2/a/2a2173653c2768de432f46d917b68aad.png&w=256&q=60" alt="Service 1">
+                  <input type="checkbox" id="service1" value="49">
+                  <label for="service1">Послуга "Наклейка захисного покриття на смартфон" - <b>49грн.</b></label>
+                  <div class="quantity-controls">
+                     <button class="quantity-minus">-</button>
+                     <input class="quantity-input" type="number" value="1" min="1">
+                     <button class="quantity-plus">+</button>
+                  </div>
+                  </div>
+                  <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/9/29af9a106868e6f0306d27f9c1f61707.png" alt="Service 3">
+                     <input type="checkbox" id="service6" value="99">
+                     <label for="service6">Послуга "Наклейка захисного покриття на планшет" - <b>99грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                  </div>
+                  <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/f/d/fd2a799e222daa22da20b3a9e36e6b23.png" alt="Service 2">
+                     <input type="checkbox" id="service2" value="49">
+                     <label for="service2">Послуга "Адаптація SIM карти" - <b>49грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                  </div>
+                  <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/7/2733f5739d4398359cae28a7c334b924.png" alt="Service 3">
+                     <input type="checkbox" id="service3" value="49">
+                     <label for="service3">Послуга "Встановлення та налаштування месенджера" - <b>49грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                     <div class="services-checkbox">
+                       <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/0/205b57545e10ad64ebf8dd3234e802a3.png" alt="Service 3">
+                       <input type="checkbox" id="service4" value="99">
+                       <label for="service4">Послуга "Послуга "Налаштування програми" - <b>99грн.</b></label>
+                       <div class="quantity-controls">
+                          <button class="quantity-minus">-</button>
+                          <input class="quantity-input" type="number" value="1" min="1">
+                          <button class="quantity-plus">+</button>
+                       </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/0/101a8ff42ff0811e63765264676da9ca.png" alt="Service 3">
+                     <input type="checkbox" id="service5" value="199">
+                     <label for="service5">Послуга "Налаштування хмарного сховища" - <b>199грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/7/2733f5739d4398359cae28a7c334b924.png" alt="Service 3">
+                     <input type="checkbox" id="service7" value="199">
+                     <label for="service7">Послуга "Перенесення листування месенджерів (Viber, WhatsApp і т.д.)" - <b>199грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/a/6/a67a188e083ca1ec6ca0e4a39d692766.png" alt="Service 3">
+                     <input type="checkbox" id="service8" value="199">
+                     <label for="service8">Послуга "Перенесення контактів" - <b>199грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                  </div>
+                  <div class="services-checkbox">
+                    <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1683030610-master-photo-migration.png" alt="Service 3">
+                    <input type="checkbox" id="service20" value="699">
+                    <label for="service20">Послуга "Міграція даних" - <b>699грн.</b></label>
+                    <div class="quantity-controls">
+                       <button class="quantity-minus">-</button>
+                       <input class="quantity-input" type="number" value="1" min="1">
+                       <button class="quantity-plus">+</button>
+                    </div>
+               
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/d/c/dc5d2fe53652fbe57ead0e4376056600.png" alt="Service 3">
+                     <input type="checkbox" id="service9" value="199">
+                     <label for="service9">Послуга "Створення облікового запису (Microsoft, Google і т.д.)" - <b>199грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/6/f/6fbf1456ff8e0fd1e8d01cd327ffc09e.png" alt="Service 3">
+                     <input type="checkbox" id="service10" value="199">
+                     <label for="service10">Послуга "Налаштування офісних додатків на ПК" - <b>199грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/f/4/f4f48bf1ed2f5822e0357c0eecd4655c.png" alt="Service 3">
+                     <input type="checkbox" id="service11" value="199">
+                     <label for="service11">Послуга "Чистка пристрою від шкідливого ПО" - <b>199грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/f/4/f4f48bf1ed2f5822e0357c0eecd4655c.png" alt="Service 3">
+                     <input type="checkbox" id="service12" value="249">
+                     <label for="service12">Послуга "Початкове налаштування смартфона/планшета" - <b>249грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/c/2c9490f89135fad5f10746510f136842.png" alt="Service 3">
+                     <input type="checkbox" id="service13" value="299">
+                     <label for="service13">Послуга "Оновлення ПО" - <b>299грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                  </div>
+                  <div class="services-checkbox">
+                    <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/e/6/e664af5f9ab5e9669879ae6505aeec8a.png" alt="Service 3">
+                    <input type="checkbox" id="service19" value="599">
+                    <label for="service19">Послуга "Оновлення ПЗ зі збереженням клієнтських даних" - <b>599грн.</b></label>
+                    <div class="quantity-controls">
+                       <button class="quantity-minus">-</button>
+                       <input class="quantity-input" type="number" value="1" min="1">
+                       <button class="quantity-plus">+</button>
+                    </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/0/5/05176883c3aaa00325b0ad0f671b6501.png" alt="Service 3">
+                     <input type="checkbox" id="service14" value="299">
+                     <label for="service14">Послуга "Встановлення пакета підручників" - <b>299грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/8/f/8fa3ce69143704c0f078108de6aa50af.png" alt="Service 3">
+                     <input type="checkbox" id="service15" value="399">
+                     <label for="service15">Послуга "Відновлення після системного збою Android" - <b>399грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/8/f/8fa3ce69143704c0f078108de6aa50af.png" alt="Service 3">
+                     <input type="checkbox" id="service17" value="699">
+                     <label for="service17">Послуга "Відновлення після системного збою Apple" - <b>699грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/7/270c3c6721847c9b7f2bbd743a60aaee.png" alt="Service 3">
+                     <input type="checkbox" id="service16" value="499">
+                     <label for="service16">Пакет налаштування "Легкий Старт" - <b>499грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                   </div>
+                   <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/8/8/8840b5e509fc028a15b239dddd9043ad.png" alt="Service 3">
+                     <input type="checkbox" id="service18" value="549">
+                     <label for="service18">Послуга "Налаштування Smart Watch" - <b>549грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                  </div>
+                  <div class="services-checkbox">
+                     <img class="service-image" src="https://i.citrus.world/uploads/promo/master/new/Tuning/tuning_4.png?_t=1673912841" alt="Service 3">
+                     <input type="checkbox" id="service32" value="999">
+                     <label for="service32">Послуга "Налаштування гаджету" - <b>999грн.</b></label>
+                     <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                     </div>
+                  </div>
             </div>
-            <div class="row">
-              <div class="ten wide column">
-                <h3>EXPERIENCE </h3>
-                <h6>
-<br>2017 </h6>
-Became 45th president of the United States
+         </div>
+      
+<div class="category">
+         <div class="category-heading" onclick="toggleCategory('category2')"><img src="https://i.ibb.co/BPdDMMx/Screenshot-2.png" alt="Разові послуги">
+         </div>
+         <div id="category2" class="category-content">
+   <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/3/b/3b5fd926c7cf8487f95c3420cb4c7777.png" alt="Service 3">
+     <input type="checkbox" id="service21" value="249">
+     <label for="service21">Антивірус AVAST Mobile Security Premium 12 міс. - <b>249грн.</b></label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+   <div class="services-checkbox">
+      <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/3/b/3b5fd926c7cf8487f95c3420cb4c7777.png" alt="Service 3">
+      <input type="checkbox" id="service33" value="449">
+      <label for="service33">Антивірус AVAST Premium Security 12 міс. для Windows - <b>449грн.</b></label>
+      <div class="quantity-controls">
+         <button class="quantity-minus">-</button>
+         <input class="quantity-input" type="number" value="1" min="1">
+         <button class="quantity-plus">+</button>
+      </div>
+    </div>
 
-<br><h6>2016</h6>
-Won election race with 77 votes more than Clinton, yippe-kee-yay!
-
-<br><h6>2015</h6>
-Became the most important Republican nominating for presidential election run
-
-<br><h6>2009</h6>
-Changed my mind and became Republican again
-
-<br><h6>2005</h6>
-Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25 million to settle that...
-
-<br><h6>2002</h6>
-Acquired the former Hotel Delmonico, which was renovated and reopened in 2004 as the Trump Park Avenue. I sure do like my surname!
-
-<br><h6>2001</h6>
-Completed Trump World Tower and joined the Democratic Party
-
-<br><h6>1999</h6>
-Started buying golf courses. They are very cheap, I have 18 of them now in USA and abroad! Also switched to the Reform Party that year
-
-<br><h6>1997</h6>
-Began a multi-building development along the Hudson River, which was named Trump Place. Me and the other investors sold our shares for $1.8 billion and that was then the biggest residential sale in the history of New York City
-
-<br><h6>1996</h6>
-Acquired the Bank of Manhattan Trust Building, which was a vacant seventy-one story skyscraper on Wall Street. After an extensive renovation, the high-rise was renamed the Trump Building
-
-<br><h6>1995</h6>
-Refurbished the Gulf and Western Building on Columbus Circle, turned it into a 44-story luxury property known as Trump International Hotel and Tower
-
-<br><h6>1989 ― 1992</h6>
-Ran a second hand airline called Trump Shuttle. What a waste of money, I had to sell it, now it is American Airlines Shuttle, btw
-
-<br><h6>1989, 1990</h6>
-Learned about Tour de France and decided to hold my very own Tour de Trump. Is America not great enough for that cycling competition?
-
-<br><h6>1988</h6>
-Acquired the Plaza Hotel in Manhattan for $407 million, invested $50 million to restore the building and boosted it from three-star to four-star hotel (I called it "the Mona Lisa" and sold it for a lot of cash in 1995)
-
-<br><h6>1987</h6>
-Registered as a Republican
-
-<br><h6>1985</h6>
-I bought the Mar-a-Lago estate in Palm Beach and turned it into a private club.You can join if you pay $200K initiation fee (and there is another annual fee for members, it is very expensive to be rich). That year I also opened a casino called Trump Castle. My wife Ivana became a manager, because she is another Trump!
-
-<br><h6>1983</h6>
-I purchased New Jersey Generals, an American football team. I changed team's play schedule and filed an antitrust lawsuit against United States Football League, so NJG are not doing so good now, but back then they were great!
-
-<br><h6>1980</h6>
-Started developing the Trump Tower skyscraper in Manhattan, I payed a crew of undocumented Polish workers to demolish the historic Bonwit Teller store, including art deco features. All this to make architectural critic Paul Goldberger say in 1983 that the tower's atrium is "the most pleasant interior public space to be completed in New York in some years". At the same time I also started a repair job on the Wollman Rink in Central Park and completed the work in three months for $1.95 million, which was $775,000 less than the initial budget!
-
-<br><h6>1976</h6>
-Purchased a 50 percent stake in the derelict Commodore Hotel and turned it into the Grand Hyatt Hotel in 2 years of remodeling
-
-<br><h6>1971</h6>
-Was promoted to president of the company and renamed it The Trump Organization
-
-<br><h6>1968</h6>
-Began my career at my father's real estate development company, Elizabeth Trump & Son
-
-<br><h3>PERSONAL LIFE</h3>
-<ul class="timeline">
-<br><h6>2006</h6>
-Melania gained United States citizenship and gave birth to our son, Barron
-
-<br><h6>2005</h6>
-Married her
-
-<br><h6>1998</h6>
-Met my future third wife, Melania Knauss
-
-<br><h6>1999</h6>
-Divorced Marla ¯_(ツ)_/¯
-
-<br><h6>1993</h6>
-Married Marla and had a daughter, we named her Tiffany, because I like Tiffany & Company jewellery as well
-
-<br><h6>1991</h6>
-Started affair with Marla Maples, so I had to divorce. God knows I love nice women, I love them all!
-
-<br><h6>1984</h6>
-Birth of Eric Trump
-
-<br><h6>1982</h6>
-Birth of Ivanka Trump
-
-<br><h6?>1977</h6>
-My first son is born. I called him Donald, of course!
-
-<br><h6>1977</h6>
-Married Czech model Ivana Zelníčková
-
-<br><h3>MEDIA CAREER</h3>
-<br><h6>2019</h6>
-Was awarded Worst Actor and Worst Screen Combo at Golden Raspberry Awards for parts in "Death of a Nation" and "Fahrenheit 11/9"
-
-<br><h6>2015</h6>
-Published a book "Crippled America: How to Make America Great Again"
-
-<br><h6>2013</h6>
-Published a book "Time to Get Tough: Making America #1 Again" in coauthorship with Wynton Hall, Peter Schweizer and Meredith McIver
-
-<br><h6>2011</h6>
-Published a book "Midas Touch: Why Some Entrepreneurs Get Rich – And Why Most Don't" in coauthorship with Robert Kiyosaki
-
-<br><h6>2011</h6>
-Published a book "Trump Tower" in coauthorship with Jeffrey Robinson
-
-<br><h6>2009</h6>
-Published a book "Think Like a Champion: An Informal Education in Business and Life" in coauthorship with Meredith McIver
-
-<br><h6>2008</h6>
-Published a book "Never Give Up: How I Turned My Biggest Challenges into Success" in coauthorship with Meredith McIver
-
-<br><h6>2007</h6>
-Published a book "Think Big and Kick Ass" in coauthorship with Bill Zanker
-
-<br><h6>2007</h6>
-Received a star on the Hollywood Walk of Fame for being producer of Miss Universe pageant
-
-<br><h6>2006</h6>
-Published a book "Why We Want You to Be Rich" in coauthorship with Meredith McIver and Robert Kiyosaki
-
-<br><h6>2006</h6>
-Published a book "How to Build a Fortune: Your Plan for Success From the World's Most Famous Businessman"
-
-<br><h6>2006</h6>
-Published a book "The Best Real Estate Advice I Ever Received: 100 Top Experts Share Their Strategies"
-
-<br><h6>2006</h6>
-Published a book "Trump 101: The Way to Success" in coauthorship with Meredith McIver
-
-<br><h6>2005</h6>
-Published a book "The Best Golf Advice I Ever Received"
-
-<br><h6>2005</h6>
-Performed a song with Megan Mullally at the 57th Primetime Emmy Awards
-
-<br><h6>2004 ― 2008</h6>
-Ran short-form talk radio program "Trumped!" (one to two minutes on weekdays)
-
-<br><h6>2004</h6>
-Published a book "Trump: How to Get Rich" in coauthorship with Meredith McIver
-
-<br><h6>2004</h6>
-Published a book "The Way to the Top: The Best Business Advice I Ever Received"
-
-<br><h6>2004</h6>
-Published a book "Think Like a Billionaire: Everything You Need to Know About Success, Real Estate, and Life" in coauthorship with Meredith McIver
-
-<br><h6>2003 ― 2015</h6> 
-Produced NBC reality shows "The Apprentice" and "The Celebrity Apprentice"
-
-<br><h6>2000</h6>
-Published a book "Trump: The America We Deserve" in coauthorship with Dave Shiflett
-
-<br><h6>1997</h6>
-Published a book "Trump: The Art of the Comeback" in coauthorship with Kate Bohner
-
-<br><h6>1991</h6>
-Was awarded Worst Supporting Actor at Golden Raspberry Awards for a part in "Ghosts Can't Do It"
-
-<br><h6>1990</h6>
-Published a book "Trump: Surviving at the Top" in coauthorship with Charles Leerhsen
-
-<br><h6>1987</h6>
-Published a book "Trump: The Art of the Deal" in coauthorship with Tony Shwartz
-
-<h3>EDUCATION</h3>
-
-<br><h6>2011</h6>
-Asked friends who are prominent and wealthy alumni of the New York Military Academy to secure my academic records so they could not be seen by anyone, never!
-
-<br><h6>1966</h6>
-Transferred to the Wharton School of the University of Pennsylvania and graduated in May 1968 with a B.S. in economics
-
-<br><h6>1964</h6>
-Started studying in Fordham University
-
-<br><h6>1963</h6>
-Enrolled in the New York Military Academy, a private boarding school, after my parents discovered I made frequent trips into Manhattan without their permission
-</ul>              
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/6/26b7d131ef97ed44fd95c86aacaeb06a.png" alt="Service 3">
+  <input type="checkbox" id="service22" value="399">
+  <label for="service22">Антивірус ESET Mobile Security 12 міс. - <b>399грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
 </div>
-              <div class="six wide column">
-                  <h3>Languages</h3>
-                  <p class="tags small"><a href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
-                </section>
-                <section>
-                  <h3>Skills</h3>
-                  <p class="tags small">NEGOTIATING COUNTING REMODELING WRITING ACING SINGING REPORTING INCORPORATING SELLING ADVERTISING HOSTING COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING DEBATING ADVISING PRESBYTERIANING</p>
-                </section>
+<div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/6/26b7d131ef97ed44fd95c86aacaeb06a.png" alt="Service 3">
+   <input type="checkbox" id="service34" value="599">
+   <label for="service34">Антивірус ESET NOD32 12 міс. - <b>599грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
+ <div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/6/26b7d131ef97ed44fd95c86aacaeb06a.png" alt="Service 3">
+   <input type="checkbox" id="service35" value="749">
+   <label for="service35">Антивірус ESET Internet Security PC 12 міс. - <b>749грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
 
-                <section>
-                  <h3>Character</h3>
-                  <p class="tags small">ADJUSTED CALM AMBITIOUS COMPETITIVE SOCIABLE DIRECT HOSTILE CARELESS IGNORANT INQUISITIVE BOLD CONFIDENT MISCHIEVOUS CHARMING INTERESTING DARING COLORFUL LAZY SELF-PROMOTING
-                  </a> DEVOTED PEDANTIC AGNOSTIC CONTENTIOUS PROCRASTINATOR RELEVANT EMPATHETIC STORYTELLER CONFIDENT CONSISTENT CHALLENGING</p>
-                </section>
+<div class="services-checkbox">
+  <img class="service-image" src="https://www.ctrs.com.ua/_next/image/?url=https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1683030518-master-adlock-mobile.png&w=256&q=60" alt="Service 3">
+  <input type="checkbox" id="service23" value="199">
+  <label for="service23">Блокувальник реклами AdLock Mobile Protection 12 міс. - <b>199грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+<div class="services-checkbox">
+   <img class="service-image" src="https://www.ctrs.com.ua/_next/image/?url=https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1683030518-master-adlock-mobile.png&w=256&q=60" alt="Service 3">
+   <input type="checkbox" id="service36" value="249">
+   <label for="service36">Блокувальник реклами AdLock  Protection 12 міс.MacOS/Windows  - <b>249грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/6/e/6e6ef21405c5a363d59d314298c2c564.png" alt="Service 3">
+  <input type="checkbox" id="service24" value="299">
+  <label for="service24">Блокувальник реклами AWAX 12 міс. для Android і iOS - <b>299грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+<div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/6/e/6e6ef21405c5a363d59d314298c2c564.png" alt="Service 3">
+   <input type="checkbox" id="service37" value="249">
+   <label for="service37">Блокувальник реклами AWAX 12 міс. MacOS/Windows - <b>249грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/6/e/6e6ef21405c5a363d59d314298c2c564.png" alt="Service 3">
+  <input type="checkbox" id="service25" value="599">
+  <label for="service25">Блокувальник реклами AWAX LifeTime для Android і iOS - <b>599грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1685360745-master-megogo-max.png" alt="Service 3">
+  <input type="checkbox" id="service26" value="299">
+  <label for="service26">MEGOGO "Максимальна" 1 міс. - <b>299грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1685360745-master-megogo-max.png" alt="Service 3">
+  <input type="checkbox" id="service27" value="357">
+  <label for="service27">MEGOGO "Легка" 3 міс. - <b>357грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1685360745-master-megogo-max.png" alt="Service 3">
+  <input type="checkbox" id="service28" value="1118">
+  <label for="service28">MEGOGO "Легка" 12 міс. - <b>1118грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1685360745-master-megogo-max.png" alt="Service 3">
+  <input type="checkbox" id="service29" value="2388">
+  <label for="service29">MEGOGO "Оптимальна" 12 міс. - <b>2388грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1685360745-master-megogo-max.png" alt="Service 3">
+  <input type="checkbox" id="service30" value="3588">
+  <label for="service30">MEGOGO "Максимальна" 12 міс. - <b>3588грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+
+<div class="services-checkbox">
+  <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/7/8/7846cde9232e8226a011795d5cf1ff53.png" alt="Service 3">
+  <input type="checkbox" id="service31" value="591">
+  <label for="service31">Sweet TV "Тариф L" 3 міс. - <b>591грн.</b></label>
+  <div class="quantity-controls">
+     <button class="quantity-minus">-</button>
+     <input class="quantity-input" type="number" value="1" min="1">
+     <button class="quantity-plus">+</button>
+  </div>
+</div>
+<div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1681823038-master-clean-my-mac.png" alt="Service 3">
+   <input type="checkbox" id="service38" value="1399">
+   <label for="service38">Утиліта CleanMyMac X 12 міс. - <b>1399грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
+ <div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1672132389-master-setapp.png" alt="Service 3">
+   <input type="checkbox" id="service39" value="1999">
+   <label for="service39">Утиліта Setapp 6 міс. - <b>1999грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
+ <div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1669025776-b3803de38fa1a88681288b45454dae7f.jpg" alt="Service 3">
+   <input type="checkbox" id="service40" value="3599">
+   <label for="service40">Утиліта Parallels Desktop 18 - <b>3599грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
+ <div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/7/6/7669600ab35b2ce70a92022baf86f44f.jpg" alt="Service 3">
+   <input type="checkbox" id="service41" value="6299">
+   <label for="service41">Microsoft Windows 11 Home (DVD-OEM) - <b>6299грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+ </div>
+ <div class="services-checkbox">
+ <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/7/6/7669600ab35b2ce70a92022baf86f44f.jpg" alt="Service 3">
+ <input type="checkbox" id="service42" value="6999">
+ <label for="service42">Microsoft Windows 11 Home (ESD) - <b>6999грн.</b></label>
+ <div class="quantity-controls">
+    <button class="quantity-minus">-</button>
+    <input class="quantity-input" type="number" value="1" min="1">
+    <button class="quantity-plus">+</button>
+ </div>
+</div>
+<div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/7/6/7669600ab35b2ce70a92022baf86f44f.jpg" alt="Service 3">
+   <input type="checkbox" id="service43" value="11899">
+   <label for="service43">Microsoft Windows 11 Pro (ESD) - <b>11899грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+  </div>
+  <div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/7/7/77c93cab494a5d586efbed5ca60fd4ca.png" alt="Service 3">
+   <input type="checkbox" id="service44" value="2699">
+   <label for="service44">Microsoft Office 365 Personal ESD - <b>2699грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+  </div>
+  <div class="services-checkbox">
+   <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/3/8/38cadd514a9f5c9583c0a1e748d669c1.jpg" alt="Service 3">
+   <input type="checkbox" id="service45" value="5199">
+   <label for="service45">Microsoft Office 365 Personal ESD - <b>5199грн.</b></label>
+   <div class="quantity-controls">
+      <button class="quantity-minus">-</button>
+      <input class="quantity-input" type="number" value="1" min="1">
+      <button class="quantity-plus">+</button>
+   </div>
+  </div>
+</div>
+<div class="category">
+         <div class="category-heading" onclick="toggleCategory('category3')"><img src="https://i.ibb.co/94Zw1L3/Screenshot-3.jpg" alt="послуги">
+         </div>
+         <div id="category3" class="category-content">
+   <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/b/7/b7e336d2558c4b81eb2b194732fea7f4.png" alt="Service 3">
+     <input type="checkbox" id="service210" value="899">
+     <label for="service210">Пакет налаштування "Android Smart Card" - <b>899грн.</b><div class="more"><br> Avast Mobile Security<br>AdLock Mobile 12 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+<div class="services-checkbox">
+     <img class="service-image" src="https://www.ctrs.com.ua/_next/image/?url=https://i.citrus.world/imgcache/size_180/uploads/shop/e/0/e0c71203bd91177a64a80a1808676417.png&w=256&q=60" alt="Service 3">
+     <input type="checkbox" id="service211" value="999">
+     <label for="service211">Пакет "Multisoft" - <b>999грн.</b><div class="more"><br> Avast Mobile Security<br>AdLock Mobile 12 мес.<br>Megogo Смартфон 1 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+   <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/b/7/b77312c37a51c678fc1e294a53d46bff.png" alt="Service 3">
+     <input type="checkbox" id="service212" value=1199">
+     <label for="service212">Пакет  "Дитячий" - <b>1199грн.</b><div class="more"><br>ESET Parental Control 12 мес</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+   <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1685360783-master-megogo-2.png" alt="Service 3">
+     <input type="checkbox" id="service213" value=999">
+     <label for="service213">Пакет  TV "MEGOGO" - <b>999грн.</b><div class="more"><br>Megogo Легкая 3 мес. </div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+     <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/3/5/35e1f645066145dcf7ffb4a7e4e1d309.png" alt="Service 3">
+     <input type="checkbox" id="service214" value=999">
+     <label for="service214">Пакет  TV "SweetTV" - <b>999грн.</b><div class="more"><br>SweetTV 3 мес. </div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+     <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/6/f/6fbf1456ff8e0fd1e8d01cd327ffc09e.png" alt="Service 3">
+     <input type="checkbox" id="service215" value=8999">
+     <label for="service215">Пакет налаштування "Office Bundle 2021" - <b>8999грн.</b><div class="more"><br>Microsoft Office Home & Student 2021 <br>AdLock для MacOS/Windows 12 мес. </div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+     <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/6/f/6fbf1456ff8e0fd1e8d01cd327ffc09e.png" alt="Service 3">
+     <input type="checkbox" id="service216" value=5699">
+     <label for="service216">Пакет налаштування "Office Bundle Mobile/Desktop" - <b>5699грн.</b><div class="more"><br>Microsoft Office 365 Personal  <br>AdLock для MacOS/Windows 12 мес. </div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+   </div>
+<div class="category">
+         <div class="category-heading" onclick="toggleCategory('category4')"><img src="https://i.citrus.world/uploads/promo/master/new/Tuning/tuning_1.png?_t=1673912841" alt="Річне обслуговування Apple&Android">
+         </div>
+         <div id="category4" class="category-content">
+   <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/3/9/39cfe2757980af9a1845d86fc94a5284.png" alt="Service 4">
+     <input type="checkbox" id="service220" value="1399">
+     <label for="service220">Річне обслуговування "Silver Card Android"- <b>1399грн.</b><div class="more"><br> СП Sweet TV 3 мес. (тариф L)<br>AdLock Mobile 12 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+    <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/6/1683030639-master-gold-card-android.png" alt="Service 4">
+     <input type="checkbox" id="service221" value="1999">
+     <label for="service221">Річне обслуговування "Gold Card Android"- <b>1999грн.</b><div class="more"><br> Avast Mobile Security<br>AdLock Mobile 12 мес.<br>Megogo Смартфон 1 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+<div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/a/d/ad47215b7c8babb3adbb70c354ec0396.png" alt="Service 4">
+     <input type="checkbox" id="service222" value="2599">
+     <label for="service222">Річне обслуговування "Platinum Card Android"- <b>2599грн.</b><div class="more"><br> Avast Mobile Security<br>AdLock Mobile 12 мес.<br>Megogo Смартфон 3 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+   <br>
+   <br>
+   <br>
+    <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/b/b/bb452fbb9c725b4f72b3883c8c2a120e.png" alt="Service 4">
+     <input type="checkbox" id="service224" value="1399">
+     <label for="service224">Річне обслуговування "Silver Card Apple"- <b>1399грн.</b><div class="more"><br> СП Sweet TV 3 мес. (тариф L)<br>AdLock Mobile 12 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+    <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/1/b/1b93b98a981220fea1335947331cf77e.png" alt="Service 4">
+     <input type="checkbox" id="service225" value="1999">
+     <label for="service225">Річне обслуговування "Gold Card Apple"- <b>1999грн.</b><div class="more"><br>AdLock Mobile 12 мес.<br>Megogo Смартфон 1 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+<div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/5/1/513d8a60a48eaecfec3123133f231abe.png" alt="Service 4">
+     <input type="checkbox" id="service226" value="2599">
+     <label for="service226">Річне обслуговування "Platinum Card Apple"- <b>2599грн.</b><div class="more"><br>AdLock Mobile 12 мес.<br>Megogo Смартфон 3 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+</div>
+<div class="category">
+         <div class="category-heading" onclick="toggleCategory('category5')"><img src="https://i.citrus.world/uploads/promo/master/new/Tuning/tuning_2.png?_t=1673912841" alt="Річне обслуговування Macbook&Windows">
+         </div>
+         <div id="category5" class="category-content">
+   <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/9/e/9e33ace7014b92046f876e20813f4281.png" alt="Service 5">
+     <input type="checkbox" id="service270" value="3099">
+     <label for="service270">Річне обслуговування "Silver Card Windows"- <b>3099грн.</b><div class="more"><br> AVAST Premium Security for Windows 12 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+    <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/f/d/fd7c8a6269ce39cb9218b775705d1fda.png" alt="Service 4">
+     <input type="checkbox" id="service271" value="10899">
+     <label for="service271">Річне обслуговування "Gold Card Windows"- <b>10899грн.</b><div class="more"><br>AVAST Premium Security for Windows 12 мес.<br>Microsoft Windows Home 11 </div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+<div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/3/c/3c791739e296c45a6cbe18ff92074f9d.png" alt="Service 4">
+     <input type="checkbox" id="service272" value="13999">
+     <label for="service272">Річне обслуговування "Platinum Card Windows"- <b>13999грн.</b><div class="more"><br>AVAST Premium Security for Windows 12 мес. <br>AdLock для Windows 12 мес.<br>Microsoft Windows Home 11.<br>Microsoft Office 365 Personal<br>Megogo Легкая 3 мес.</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+   <br>
+   <br>
+   <br>
+    <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/7/27e55498caff1d60220c0a81bf338b6b.png" alt="Service 4">
+     <input type="checkbox" id="service274" value="3099">
+     <label for="service274">Річне обслуговування "Silver Card Mac"- <b>3099грн.</b><div class="more"><br> AdLock для MacOS 12 мес</div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+    <div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/a/3/a3f6af962ecce7471456c739fcef5595.png" alt="Service 4">
+     <input type="checkbox" id="service275" value="7999">
+     <label for="service275">Річне обслуговування "Gold Card Mac"- <b>7999грн.</b><div class="more"><br>AdLock для MacOS 12 мес. <br>CleanMyMac X 12 мес.<br>Microsoft Office 365 Personal  </div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+<div class="services-checkbox">
+     <img class="service-image" src="https://i.citrus.world/imgcache/size_180/uploads/shop/2/7/2711c7f41e1e14486fe0a34e00632123.png" alt="Service 4">
+     <input type="checkbox" id="service276" value="15499">
+     <label for="service276">Річне обслуговування "Platinum Card Mac"- <b>15499грн.</b><div class="more"><br>AdLock для MacOS 12 мес.<br>CleanMyMac X 12 мес.<br>Microsoft Office Home & Student 2021<br>Paragon NTFS for Mac 15<br>Megogo Максимальная 12 мес. </div> </label>
+     <div class="quantity-controls">
+        <button class="quantity-minus">-</button>
+        <input class="quantity-input" type="number" value="1" min="1">
+        <button class="quantity-plus">+</button>
+     </div>
+   </div>
+   </div>
 
 
-                <section>
-                  <h3>Likes&#x1f603;</h3>
-                  
-                   <span class="tags small">BILLIONS FILET-O-FISH BIG MAC CHINA QUARTER POUNDER DIET COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR PROTESTERS CONSTRUCTION RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY</span>
-                </section>
+   <div class="total-price-label" id="total-price-label">Всього: 0 грн.</div>
+   
+   <div id="sticky-total-price" class="total-price-label">Всього: 0 грн.</div>
+</div>
+<div><br><button id="deselect-all-btn">Х</button></div>
+   <script>
+      // Получаем все элементы с классом 'services-checkbox'
+      var checkboxes = document.querySelectorAll('.services-checkbox input[type="checkbox"]');
+      var quantityInputs = document.querySelectorAll('.services-checkbox .quantity-input');
+      var stickyTotalPrice = document.getElementById('sticky-total-price');
 
+      // Добавляем обработчики событий для каждого чекбокса
+      checkboxes.forEach(function(checkbox) {
+          checkbox.addEventListener('change', function() {
+              calculateTotalPrice();
+          });
+      });
 
-                <section>
-                  <h3>Dislikes&#x1f61e;</h3>
-                  <p class="tags small">DOGS MEDIA CNN GERMANS MEXICANS IMMIGRANTS SHITHOLE COUNTRIES UNATTRACTIVE WOMEN BLACKS SUSHI HOT-DOGS ALCOHOL FRUIT CHRISTMAS PARTIES LIBERALS
-                  </p>
-                </section>
-                
+      // Добавляем обработчики событий для кнопок '+' и '-'
+      var minusButtons = document.querySelectorAll('.quantity-minus');
+      var plusButtons = document.querySelectorAll('.quantity-plus');
 
+      minusButtons.forEach(function(button) {
+          button.addEventListener('click', function() {
+              updateQuantity(this, -1);
+          });
+      });
 
-                <section>
-                  <h3>Wants&#x1f97a;</h3>
-                  <p class="tags small bulleted">BE HEALTHY GROW A TREE BUILD TRUMP AIRPORT HAVE A TASTE DO A HARLEM SHAKE IN CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS
-                  </p>
-                </section>
+      plusButtons.forEach(function(button) {
+          button.addEventListener('click', function() {
+              updateQuantity(this, 1);
+          });
+      });
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-    </main>
-  </body>
+      // Добавляем обработчик события для кнопки "Снять выделение со всех"
+      var deselectAllButton = document.getElementById('deselect-all-btn');
+      deselectAllButton.addEventListener('click', function() {
+          checkboxes.forEach(function(checkbox) {
+              checkbox.checked = false;
+          });
+          calculateTotalPrice();
+      });
+
+      // Функция для обновления количества услуги и расчета общей стоимости
+      function updateQuantity(element, value) {
+          var quantityInput = element.parentNode.querySelector('.quantity-input');
+          var quantity = parseInt(quantityInput.value) + value;
+
+          if (quantity < 1) {
+              quantity = 1;
+          }
+
+          quantityInput.value = quantity;
+          calculateTotalPrice();
+      }
+
+      // Функция для расчета общей стоимости
+      function calculateTotalPrice() {
+          var totalPrice = 0;
+
+          checkboxes.forEach(function(checkbox, index) {
+              if (checkbox.checked) {
+                  var quantity = parseInt(quantityInputs[index].value);
+                  var price = parseInt(checkbox.value);
+                  totalPrice += quantity * price;
+              }
+          });
+
+          var totalPriceLabel = document.querySelector('.total-price-label');
+          totalPriceLabel.textContent = 'Всього: ' + totalPrice + ' грн.';
+          stickyTotalPrice.textContent = 'Всього: ' + totalPrice + ' грн.';
+      }
+
+      // Добавляем обработчик события для скролла
+      window.addEventListener('scroll', function() {
+          var totalPriceLabelRect = totalPriceLabel.getBoundingClientRect();
+          var stickyTotalPriceRect = stickyTotalPrice.getBoundingClientRect();
+
+          if (totalPriceLabelRect.bottom < 0) {
+              stickyTotalPrice.style.display = 'block';
+          } else {
+              stickyTotalPrice.style.display = 'none';
+          }
+      });
+   </script>
+   <script>
+      function toggleCategory(categoryId) {
+         var category = document.getElementById(categoryId);
+         category.classList.toggle('active');
+      }
+   </script>
+</body>
 </html>
